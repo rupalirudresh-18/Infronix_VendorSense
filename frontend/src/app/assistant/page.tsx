@@ -9,7 +9,6 @@ export default function AssistantPage() {
   const [selectedVendor, setSelectedVendor] = useState<string | undefined>()
 
   useEffect(() => { fetchVendors().then(setVendors) }, [])
-
   return (
     <div style={{ display: 'flex', minHeight: '100vh' }}>
       <Sidebar />
