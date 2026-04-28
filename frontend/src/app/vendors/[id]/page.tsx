@@ -64,8 +64,8 @@ export default function VendorDetailPage() {
           </div>
         </div>
 
-        {/* Tabs */}
-        <div style={{ display: 'flex', gap: 4, marginBottom: 24, borderBottom: '1px solid var(--color-border)' }}>
+        {/* Tabs + Export */}
+        <div style={{ display: 'flex', gap: 4, marginBottom: 24, borderBottom: '1px solid var(--color-border)', alignItems: 'center' }}>
           {(['overview', 'predict', 'explain'] as const).map(t => (
             <button key={t} onClick={() => setTab(t)} style={{
               padding: '10px 18px', fontSize: 13, fontWeight: 600, cursor: 'pointer',
@@ -75,6 +75,21 @@ export default function VendorDetailPage() {
               textTransform: 'capitalize', transition: 'all 0.15s', marginBottom: -1,
             }}>{t === 'predict' ? '🔮 Predict' : t === 'explain' ? '🧠 Explainability' : '📊 Overview'}</button>
           ))}
+          <a
+            href={`/vendors/${vendor.id}/report`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              marginLeft: 'auto', marginBottom: 4,
+              padding: '7px 16px', background: 'var(--color-brand)',
+              color: '#fff', borderRadius: 8, fontSize: 12,
+              fontWeight: 600, textDecoration: 'none',
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              border: 'none', cursor: 'pointer',
+            }}
+          >
+            🖨 Export Report
+          </a>
         </div>
 
         {tab === 'overview' && (
