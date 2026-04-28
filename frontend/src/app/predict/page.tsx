@@ -106,7 +106,7 @@ export default function PredictPage() {
             </div>
           </div>
         )}
-      </main>
+         </main>
     </div>
   )
 }
