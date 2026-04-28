@@ -1,22 +1,43 @@
-VendorSense is a full-stack AI-driven platform for intelligent vendor evaluation. It combines machine learning, predictive risk analysis, and explainable AI to provide clear, data-driven insights for better supplier decision-making.
+# 🚀 VendorSense
 
-✅ Recent Updates
-🤖 Assistant UI Improved
-Cleaner interface with card-based insights (recommendations, actions, explanations)
-Better readability and structured output
-Ready for backend AI integration
-📄 PDF Report Generation
-Downloadable vendor reports with performance and risk insights
-Dynamic file naming for easy sharing
-**
-🔄 Current Progress
-Vendor scoring system implemented
-Risk prediction module working
-Explainable insights integrated
-Interactive dashboard built
-AI assistant UI ready
-Report generation added
-🚧 Upcoming
-Connect assistant to live backend
-Improve PDF design
-Deploy full system
+**VendorSense** is an AI-driven vendor intelligence platform that transforms supplier management into a proactive, data-driven process. It combines machine learning, predictive risk analysis, and explainable AI to deliver clear, actionable insights on vendor performance and risk.
+
+---
+
+## ✨ Features
+
+- 📊 Vendor scoring based on cost, quality, delivery, and performance  
+- ⚠️ Predictive risk analysis for future vendor issues  
+- 🧠 Explainable AI insights for transparent decision-making  
+- 🤖 AI Assistant with structured recommendations and insights  
+- 📄 PDF report generation for vendor summaries  
+
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: Next.js, TypeScript, Tailwind CSS  
+- Backend: Python (Flask/Django)  
+- Machine Learning: Pandas, Scikit-learn  
+
+---
+
+## 📈 Current Progress
+
+- Vendor scoring system implemented  
+- Risk prediction module functional  
+- Explainable insights integrated  
+- Interactive dashboard developed  
+- Assistant UI implemented  
+- PDF report generation added  
+
+---
+
+## 🚧 Upcoming
+
+- Improved PDF design  
+
+
+---
+
+
