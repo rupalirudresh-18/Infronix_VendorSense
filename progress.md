@@ -8,6 +8,7 @@ Ready for backend AI integration
 📄 PDF Report Generation
 Downloadable vendor reports with performance and risk insights
 Dynamic file naming for easy sharing
+**
 🔄 Current Progress
 Vendor scoring system implemented
 Risk prediction module working
