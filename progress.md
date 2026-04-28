@@ -32,10 +32,10 @@
 - PDF report generation added  
 
 ---
+## Prediction
 
-## 🚧 Upcoming
-
-- Improved PDF design  
+The prediction module in VendorSense is responsible for assessing vendor risk using machine learning models. It analyzes key data such as past performance, delivery timelines, compliance records, and financial indicators to generate a risk score or category (low, medium, high).
+Its main role is to help decision-makers identify potentially risky vendors in advance, enabling proactive actions like closer monitoring, contract adjustments, or vendor replacement. This reduces operational risks and improves overall vendor reliability.
 
 
 ---
