@@ -74,3 +74,7 @@ Frontend runs at: http://localhost:3000
 - **NovaTech Parts** (V003) — Medium risk, improving trend
 - **GreenLeaf Packaging** (V004) — Stable, low-medium risk
 - **Meridian Steel Works** (V005) — Critical risk, multiple incidents
+
+![Dashboard](1.jpeg)
+![Dashboard](2.png)
+![Dashboard](3.jpeg)
