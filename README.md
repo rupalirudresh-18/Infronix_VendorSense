@@ -78,3 +78,4 @@ Frontend runs at: http://localhost:3000
 ![Dashboard](1.jpeg)
 ![Dashboard](2.png)
 ![Dashboard](3.jpeg)
+[Download ZIP](./demo.zip)
